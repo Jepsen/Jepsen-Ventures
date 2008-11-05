@@ -8,7 +8,7 @@ body {
   line-height: 1.6em;
 }
 
-/* Text */
+/* Formatting */
 
 h1, h2, h3 {
   margin: 0;
@@ -37,3 +37,24 @@ em {
 strong {
   font-weight: bold;
 }
+
+/* Links */
+a {
+  text-decoration: none;
+}
+
+  a:link {
+    color: #4d88dd;
+  }
+  
+  a:visited {
+    color: #6591cf;
+  }
+  
+  a:hover {
+    color: #e7651f;
+  }
+  
+  a:active {
+    color: #e5511d;
+  }

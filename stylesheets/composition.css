@@ -1,15 +1,26 @@
 /* General */
 
 body {
-  margin: 1em auto;
+  background-color: #5b5c81;
+  color: #a3a1bd;
+  margin: 2em auto;
   width: 980px;
 }
 
-/* Header */
+/* Core Layout */
+
+#header, #article, #footer, #showcase {
+  padding: 15px; /* master padding */
+}
+
+#article, #footer {
+  background-color: #fff;
+  color: #222;
+}
 
 #header {
   overflow: hidden;
-  margin-bottom: 1em;
+  margin: 1em 0;
 }
 
   #header .project-name {
@@ -17,17 +28,27 @@ body {
     float: left;
   }
   
-  #header .nav {
+  #header ul.nav {
     float: right;
+    list-style-type: none;
   }
-
-/* Article */
+  
+    #header .nav li {
+      display: inline;
+    }
+    
+    #header .nav a {
+      color: #a3a1bd;
+      padding: 0.5em 1em;
+    }
+    
+      #header .nav a:hover, #header .nav a.selected {
+        color: #fff;
+      }
 
 #article {
   margin-bottom: 1em;
 }
-
-/* Footer */
 
 #footer {
   font-size: 0.9em;
@@ -37,3 +58,10 @@ body {
   #footer .license {
     float: left;
   }
+
+/* Showcase */
+
+#showcase {
+  border: 1px solid #999;
+  margin-bottom: 1em;
+}
