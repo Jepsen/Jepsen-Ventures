@@ -1,0 +1,39 @@
+/* General */
+
+body {
+  margin: 1em auto;
+  width: 980px;
+}
+
+/* Header */
+
+#header {
+  overflow: hidden;
+  margin-bottom: 1em;
+}
+
+  #header .project-name {
+    font-size: 1.4em;
+    float: left;
+  }
+  
+  #header .nav {
+    float: right;
+  }
+
+/* Article */
+
+#article {
+  margin-bottom: 1em;
+}
+
+/* Footer */
+
+#footer {
+  font-size: 0.9em;
+  text-align: right;
+}
+
+  #footer .license {
+    float: left;
+  }
