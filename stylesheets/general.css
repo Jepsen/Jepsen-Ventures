@@ -38,7 +38,22 @@ strong {
   font-weight: bold;
 }
 
+/* Lists */
+
+ul, ol {
+  margin: 1em;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
 /* Links */
+
 a {
   text-decoration: none;
 }
