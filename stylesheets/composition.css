@@ -13,19 +13,11 @@ body {
   padding: 10px 0;
 }
 
-#article, #showcase {
-  padding: 15px;
-}
-
-#article {
-  background-color: #fff;
-  color: #222;
-}
-
 #header {
+  background: url('../images/elements/page_top.gif') no-repeat bottom;
   height: 40px;
   overflow: hidden;
-  margin: 1em 0;
+  padding: 0 20px 20px;
 }
 
   #header .logo {
@@ -53,12 +45,16 @@ body {
       }
 
 #article {
-  margin-bottom: 1em;
+  background: #fff url('../images/elements/page_middle.gif') repeat-y;
+  color: #222;
+  padding: 30px 30px 10px;
 }
 
 #footer {
+  background: url('../images/elements/page_bottom.gif') no-repeat top;
   font-size: 0.9em;
   text-align: right;
+  padding: 40px 20px 20px;
 }
 
   #footer .license {
@@ -68,10 +64,15 @@ body {
   #footer a {
     color: #d2d1f3;
   }
+  
+    #footer a:hover {
+      color: #e7e7f2;
+    }
 
 /* Showcase */
 
 #showcase {
   border: 1px solid #999;
+  padding: 15px;
   margin-bottom: 1em;
 }
