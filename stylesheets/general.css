@@ -73,3 +73,20 @@ a {
   a:active {
     color: #e5511d;
   }
+
+/* Special */
+
+a.button {
+  display: block;
+  height: 28px;
+  overflow: hidden;
+  width: 200px;
+}
+
+  a.button:hover img {
+    margin-top: -28px;
+  }
+
+  a.button:active img {
+    margin-top: -56px;
+  }

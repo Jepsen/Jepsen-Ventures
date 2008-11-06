@@ -1,20 +1,16 @@
 /* General */
 
 body {
-  background-color: #545c84;
-  color: #a3a1bd;
-  margin: 1em auto;
+  background-color: #353951;
+  color: #7c7b8f;
+  margin: 1em auto 1em;
   width: 980px;
 }
 
 /* Core Layout */
 
-#header, #footer {
-  padding: 10px 0;
-}
-
 #header {
-  background: url('../images/elements/page_top.gif') no-repeat bottom;
+  background: url('../images/elements/page_top.png') no-repeat bottom;
   height: 40px;
   overflow: hidden;
   padding: 0 20px 20px;
@@ -36,25 +32,39 @@ body {
     }
     
     #header .nav a {
+      background: url('../images/navigation_highlight.png') no-repeat center right;
       color: #a3a1bd;
-      padding: 0.5em 1em;
+      padding: 10px 20px 10px 0;
     }
+    
+      #header .nav a span {
+        background: url('../images/navigation_highlight.png') no-repeat center left;
+        padding: 10px 0 10px 20px;
+      }
     
       #header .nav a:hover, #header .nav a.selected {
         color: #fff;
       }
 
-#article {
-  background: #fff url('../images/elements/page_middle.gif') repeat-y;
+#page {
+  background: url('../images/elements/page_middle.png') repeat-y;
   color: #222;
-  padding: 30px 30px 10px;
+  padding: 10px 30px;
+  overflow: hidden;
 }
+  
+  #page .section {
+    float: left;
+    padding: 10px;
+    text-align: justify;
+    width: 280px;
+  }
 
 #footer {
-  background: url('../images/elements/page_bottom.gif') no-repeat top;
+  background: url('../images/elements/page_bottom.png') no-repeat top;
   font-size: 0.9em;
   text-align: right;
-  padding: 40px 20px 20px;
+  padding: 40px 30px 0;
 }
 
   #footer .license {
@@ -72,7 +82,19 @@ body {
 /* Showcase */
 
 #showcase {
-  border: 1px solid #999;
-  padding: 15px;
+  background: #457eda url('../images/elements/showcase.png') no-repeat;
+  color: #fff;
+  height: 200px;
+  overflow: hidden;
   margin-bottom: 1em;
 }
+
+  #showcase .item {
+    height: 140px;
+    padding: 30px;
+  }
+  
+  #showcase .example {
+    background: url('../images/screenshots/example.png') no-repeat right;
+    padding-right: 420px;
+  }
