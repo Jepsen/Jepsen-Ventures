@@ -84,17 +84,43 @@ body {
 #showcase {
   background: #457eda url('../images/elements/showcase.png') no-repeat;
   color: #fff;
-  height: 200px;
+  height: 300px;
   overflow: hidden;
   margin-bottom: 1em;
 }
+  
+  #showcase a {
+    color: #ccf;
+  }
+  
+    #showcase a:hover, #showcase a.selected {
+      color: #fff;
+    }
+
+  #showcase .nav {
+    float: left;
+    height: 240px;
+    list-style-type: none;
+    margin: 0;
+    padding: 30px;
+    width: 120px;
+  }
+  
+    #showcase .nav a {
+      display: block;
+    }
 
   #showcase .item {
-    height: 140px;
+    display: none;
+    height: 240px;
     padding: 30px;
   }
   
-  #showcase .example {
-    background: url('../images/screenshots/example.png') no-repeat right;
+  #showcase .first {
+    display: block;
+  }
+  
+  #showcase #example {
+    background: url('../images/screenshots/example.png') no-repeat bottom right;
     padding-right: 420px;
   }

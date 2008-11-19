@@ -4,6 +4,8 @@
     <title>Project Name</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/master.css" />
+    <script type="text/javascript" src="javascripts/jquery-1.2.6.min.js"></script>
+    <script type="text/javascript" src="javascripts/showcase.js"></script>
   </head>
   <body>
     
@@ -19,12 +21,22 @@
       
       <div id="showcase">
         
-        <div class="item example">
+        <ul class="nav">
+          <li><a href="#example" class="selected">Example</a></li>
+          <li><a href="#another">Another</a></li>
+        </ul>
+        
+        <div class="item first" id="example">
           <h1><img src="images/headings/showcase_item.png" alt="Showcase Item" /></h1>
           <p>A brief, descriptive blurb of a feature. Make it short and full of impact! This amount of text is just about the <em>perfect</em> length, maybe with a bit extra.</p>
           <p>
             <a href="#" class="button"><img src="images/buttons/example.png" alt="Example Button" /></a>
           </p>
+        </div>
+        
+        <div class="item" id="another">
+          <h1><img src="images/headings/showcase_item.png" alt="Another Showcase Item" /></h1>
+          <p>This is cool.</p>
         </div>
         
       </div>
