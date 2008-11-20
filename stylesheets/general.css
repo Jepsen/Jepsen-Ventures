@@ -23,6 +23,7 @@ h2 {
 }
 
 h3 {
+  font-weight: bold;
   font-size: 1.2em;
 }
 
@@ -89,4 +90,37 @@ a.button {
 
   a.button:active img {
     margin-top: -56px;
+  }
+
+/* Microformats */
+.vcard {
+  background: url('../images/elements/hcard.gif') no-repeat top;
+  border-bottom: 1px solid #ccc;
+  margin-top: 1em;
+  padding: 1em;
+}
+  
+  .vcard .hidden {
+    display: none;
+  }
+  
+  .vcard .adr {
+    margin-top: 1em;
+  }
+  
+  .vcard .url {
+    display: none;
+  }
+
+.vcard-download {
+  background: url('../images/elements/hcard.gif') no-repeat bottom;
+  border-top: 1px solid #fff;
+  font-size: 0.9em;
+  padding: 0.5em;
+  text-align: center;
+}  
+
+  .vcard-download a {
+    background: url('../images/icons/hcard_download.png') no-repeat center right;
+    padding: 0.5em 30px 0.5em 0;
   }

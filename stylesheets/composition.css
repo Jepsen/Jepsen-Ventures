@@ -48,10 +48,14 @@ body {
 
 #page {
   background: url('../images/elements/page_middle.png') repeat-y;
-  color: #222;
+  color: #777;
   padding: 10px 30px;
   overflow: hidden;
-}
+}  
+  
+  #page h1, #page h2, #page h3 {
+    color: #222;
+  }
   
   #page .section {
     float: left;
@@ -130,3 +134,17 @@ body {
     background: url('../images/screenshots/example.png') no-repeat bottom right;
     padding-right: 300px;
   }
+
+/* Special */
+
+#contact {
+  float: right;
+  width: 280px;
+}
+
+#map {
+  border: 1px solid #999;
+  margin: 1em 0;
+  height: 400px;
+  width: 620px;
+}
