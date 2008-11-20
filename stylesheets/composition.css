@@ -122,13 +122,8 @@ body {
     }
 
   #showcase .item {
-    display: none;
     height: 180px;
     padding: 30px;
-  }
-  
-  #showcase .first {
-    display: block;
   }
   
   #showcase #example {
