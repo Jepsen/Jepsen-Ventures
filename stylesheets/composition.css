@@ -78,59 +78,7 @@ body {
     #footer a:hover {
       color: #e7e7f2;
     }
-
-/* Showcase */
-
-#showcase {
-  background: #457eda url('../images/elements/showcase.png') no-repeat;
-  color: #fff;
-  height: 240px;
-  overflow: hidden;
-  margin-bottom: 1em;
-}
   
-  #showcase a {
-    color: #ccf;
-  }
-  
-    #showcase a:hover, #showcase a.selected {
-      color: #fff;
-    }
-
-  #showcase .nav {
-    float: left;
-    height: 300px;
-    list-style-type: none;
-    margin: 0 30px 0 0;
-    width: 200px;
-  }
-  
-    #showcase .nav a {
-      background: url('../images/elements/shadow.png') repeat-y right;
-      border-color: #5e82bb;
-      border-style: solid;
-      border-width: 0 1px 1px 0;
-      display: block;
-      line-height: 80px;
-      padding-right: 30px;
-      text-align: right;
-    }
-    
-    #showcase a.selected {
-      background-image: none;
-      border-right-style: none;
-    }
-
-  #showcase .item {
-    height: 180px;
-    padding: 30px;
-  }
-  
-  #showcase #example {
-    background: url('../images/screenshots/example.png') no-repeat bottom right;
-    padding-right: 300px;
-  }
-
 /* Special */
 
 #contact {
