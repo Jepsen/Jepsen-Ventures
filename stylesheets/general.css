@@ -1,0 +1,126 @@
+/* General */
+
+body, input, textarea, select {
+  font: 10pt "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6em;
+}
+
+/* Formatting */
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.6em;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+p {
+  margin: 1em 0;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+/* Lists */
+
+ul, ol {
+  margin: 1em 1em 1em 2em;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+/* Links */
+
+a {
+  text-decoration: none;
+}
+
+  a:link {
+    color: #4d88dd;
+  }
+  
+  a:visited {
+    color: #6591cf;
+  }
+  
+  a:hover {
+    color: #e7651f;
+  }
+  
+  a:active {
+    color: #e5511d;
+  }
+
+/* Special */
+
+a.button {
+  display: block;
+  height: 28px;
+  overflow: hidden;
+  width: 200px;
+}
+
+  a.button:hover img {
+    margin-top: -28px;
+  }
+
+  a.button:active img {
+    margin-top: -56px;
+  }
+
+/* Microformats */
+.vcard {
+  background: url('../images/elements/hcard.gif') no-repeat top;
+  border-bottom: 1px solid #ccc;
+  margin-top: 1em;
+  padding: 1em;
+}
+  
+  .vcard .hidden {
+    display: none;
+  }
+  
+  .vcard .adr {
+    margin-top: 1em;
+  }
+  
+  .vcard .url {
+    display: none;
+  }
+
+.vcard-download {
+  background: url('../images/elements/hcard.gif') no-repeat bottom;
+  border-top: 1px solid #fff;
+  font-size: 0.9em;
+  padding: 0.5em;
+  text-align: center;
+}  
+
+  .vcard-download a {
+    background: url('../images/icons/hcard_download.png') no-repeat center right;
+    padding: 0.5em 30px 0.5em 0;
+  }
