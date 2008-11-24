@@ -1,7 +1,7 @@
 /* General */
 
 body {
-  background-color: #353951;
+  background-color: #1a1a1a;
   color: #7c7b8f;
   margin: 1em auto 1em;
   width: 980px;
@@ -67,13 +67,9 @@ body {
 #footer {
   background: url('../images/elements/page_bottom.png') no-repeat top;
   font-size: 0.9em;
-  text-align: right;
+  text-align: center;
   padding: 40px 30px 0;
 }
-
-  #footer .license {
-    float: left;
-  }
   
   #footer a {
     color: #d2d1f3;
