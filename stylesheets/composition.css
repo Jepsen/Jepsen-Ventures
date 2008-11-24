@@ -53,8 +53,9 @@ body {
   overflow: hidden;
 }  
   
-  #page h1, #page h2, #page h3 {
+  #page h1 {
     color: #222;
+    margin-bottom: 0.2em;
   }
   
   #page .section {
