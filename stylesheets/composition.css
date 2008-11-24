@@ -21,31 +21,6 @@ body {
     float: left;
   }
   
-  #header ul.nav {
-    float: right;
-    list-style-type: none;
-    margin: 10px 0 0 0;
-  }
-  
-    #header .nav li {
-      display: inline;
-    }
-    
-    #header .nav a {
-      background: url('../images/navigation_highlight.png') no-repeat center right;
-      color: #a3a1bd;
-      padding: 10px 20px 10px 0;
-    }
-    
-      #header .nav a span {
-        background: url('../images/navigation_highlight.png') no-repeat center left;
-        padding: 10px 0 10px 20px;
-      }
-    
-      #header .nav a:hover, #header .nav a.selected {
-        color: #fff;
-      }
-
 #page {
   background: url('../images/elements/page_middle.png') repeat-y;
   color: #777;
