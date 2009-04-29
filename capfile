@@ -1,0 +1,29 @@
+load 'deploy' if respond_to?(:namespace) # cap2 differentiator
+
+default_run_options[:pty] = true
+
+set :application, 'axius'
+set :user, 'rocketboysclients' # ssh user
+set :domain, 'axius.co.nz' # ssh domain
+set :repository,  "git@github.com:Jepsen/#{application}.git"
+
+# Standard settings
+set :scm, 'git'
+set :deploy_to, "/home/#{user}/projects/#{application}"
+set :deploy_via, :remote_cache
+set :branch, 'master'
+set :git_shallow_clone, 1
+set :use_sudo, false
+
+# Debuggery
+# set :scm_verbose, true
+
+server domain, :app, :web, :db
+
+namespace :deploy do
+  
+  task :restart do
+    # Skip restart
+  end
+  
+end
